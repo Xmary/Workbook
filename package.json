@@ -13,7 +13,7 @@
   "scripts": {
     "postinstall": "bower install",
     "prestart": "npm install",
-    "start": ". venv/bin/activate && python runserver.py",
+    "start": "python runserver.py",
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
     "test-single-run": "karma start karma.conf.js  --single-run",

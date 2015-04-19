@@ -1,4 +1,6 @@
 language: python
+python:
+- "3.4"
 before_script:
 - psql -c 'create database workbook;' -U postgres
 - export CHROME_BIN='chromium-browser'
