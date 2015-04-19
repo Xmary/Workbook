@@ -47,7 +47,9 @@ pip freeze > requirements.txt
 ```
 
 ## Step 3: The most important files for frontend
-Firstly, [bower package manager](http://bower.io) should be installed (npm installed globally before):
+Firstly, [npm - Node package manager](https://www.npmjs.com) should be installed.
+Secondly, [package.json](package.json) file should be created in order to save package dependencies. 
+Thirdly, [bower package manager](http://bower.io) should be installed (npm installed globally before):
 
 ```
 sudo npm install -g bower

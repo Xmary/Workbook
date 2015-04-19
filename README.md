@@ -7,6 +7,10 @@ This project should result in Flask-Angular boilerplate or example project, whic
 * [AngularJS framework](https://angularjs.org) for frontend
 * [Github](https://github.com) for version control
 
+## Possible problems with incorrect npm package installing
+Use ```rm -rf node_modules/ workbook/static/bower_components/```
+and ```npm install``` after that. 
+
 ## Commits:
 * [Commit 1](docs/commit_1.md)
 * Commit 2: only small fixes to docs.

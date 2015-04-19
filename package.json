@@ -1,0 +1,30 @@
+{
+  "name": "workbook",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A starter project for Flask-Angular",
+  "repository": "https://github.com/Xmary/Workbook.git",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "~0.10",
+    "protractor": "^1.1.1",
+    "bower": "^1.3.1"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": ". venv/bin/activate && python runserver.py",
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js  --single-run",
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+    "preprotractor": "npm run update-webdriver",
+    "protractor": "protractor e2e-tests/protractor.conf.js"
+  },
+  "dependencies": {
+    "karma-chrome-launcher": "^0.1.8",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-safari-launcher": "^0.1.1"
+  }
+}
