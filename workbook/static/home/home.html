@@ -1,3 +1,17 @@
 <div ng-controller="HomeCtrl">
-  Home template
+  <div class="row">
+    <form name="inputForm" ng-submit="submit()" novalidate>
+      <div class="form-group" ng-class="{'has-error':inputError}">
+        <input type="text" class="form-control" placeholder="Type text here" name="inputText" ng-model="someData.text" ng-required>
+      </div>
+    </form>
+  </div>
+  <div class="row">
+    <table>
+      <tr ng-repeat="text in output">
+        <td>{{ text.id }}</td>
+        <td>{{ text.text }}</td>
+      </tr>
+    </table>
+  </div>
 </div>

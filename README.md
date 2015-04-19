@@ -14,3 +14,4 @@ and ```npm install``` after that.
 ## Commits:
 * [Commit 1](docs/commit_1.md)
 * Commit 2: only small fixes to docs.
+* [Commit 3](docs/commit_3.md)
