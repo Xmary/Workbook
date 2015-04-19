@@ -5,7 +5,6 @@ Firstly, I have installed virtual environment (Python 3.4 installed before), as 
 
 ```
 sudo pip install virtualenv
-
 ```
 And after that created project folder, and installed Flask using virtual environment:
 
@@ -15,7 +14,6 @@ cd workbook
 virtualenv venv
 . venv/bin/activate
 pip install Flask
-
 ```
 
 ## Step 2: The most important files for backend
@@ -46,15 +44,13 @@ To create requirements.txt with needed components' versions:
 
 ```
 pip freeze > requirements.txt
-
-``
+```
 
 ## Step 3: The most important files for frontend
 Firstly, [bower package manager](http://bower.io) should be installed (npm installed globally before):
 
 ```
 sudo npm install -g bower
-
 ```
 This creates automatically folder node_modules in root folder with bower.
 After that .bowerrc file (defines folder for bower_components) and bower.json file are created. Bower.json could be created also automatically using command ```bower init```.
@@ -64,7 +60,6 @@ To install angular and angular-ui-router:
 ```
 bower install angular --save
 bower install angular-ui-router --save
-
 ```
 
 -- save means, that dependency is saved to bower.json (created earlier).
@@ -93,13 +88,11 @@ bower install angular-ui-router --save
 
 ```
 python runserver.py
-
 ```
 Check the application from 
 
 ```
 http://localhost:5000/
-
 ```
 
 ## Step 5: Github
@@ -109,7 +102,6 @@ Inside root folder use command
 
 ```
 git init
-
 ```
 Added README.md and .gitignore files to root folder.
 README.md file uses [Markdown syntax](http://daringfireball.net/projects/markdown/syntax).

@@ -9,3 +9,4 @@ This project should result in Flask-Angular boilerplate or example project, whic
 
 ## Commits:
 * [Commit 1](docs/commit_1.md)
+* Commit 2: only small fixes to docs.
