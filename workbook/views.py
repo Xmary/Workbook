@@ -11,7 +11,7 @@ from workbook.extensions import db
 # route() decorators and triggered functions
 # by default route answers only to GET requests
 
-
+# Chapter 1 - only one route for static page
 @app.route('/')
 @app.route('/index.html')
 def basic_pages():

@@ -4,7 +4,7 @@ exports.config = {
   specs: [
     '*.js'
   ],
-
+  //TODO: Chrome causes problems in Travis CI, should be solved later
   capabilities: {
     'browserName': 'firefox'
   },

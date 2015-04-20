@@ -12,6 +12,7 @@ var Workbook = angular.module('Workbook', [
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: 'static/home/home.html'
+      templateUrl: 'static/home/home.html',
+      controller: 'HomeCtrl'
     })
 }]);
