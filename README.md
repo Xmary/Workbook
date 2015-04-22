@@ -8,6 +8,7 @@ This project should result in Flask-Angular boilerplate or example project, whic
 * [Flask microframework](http://flask.pocoo.org) for backend (i.e. without templates)
 * [AngularJS framework](https://angularjs.org) for frontend
 * [Github](https://github.com) for version control
+* Jasmine testing framework (used by Karma test runner)
 
 ## Possible problems with incorrect npm package installing
 Use ```rm -rf node_modules/ workbook/static/bower_components/```
@@ -18,3 +19,4 @@ and ```npm install``` after that.
 * [Chapter 2](docs/chapter_2.md): Testing
 * [Chapter 3](docs/chapter_3.md): Database and requests - responses
 * [Chapter 4](docs/chapter_4.md): Test automation with Travis CI
+* [Chapter 5](docs/chapter_5.md): More about testing

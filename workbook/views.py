@@ -34,10 +34,10 @@ def send_data():
     input_data = request.json
     form = InputForm(data=input_data)
     if not form.validate():
-        return {
+        return jsonify({
             'message': 'Input form is invalid',
             'errors': form.errors
-        }, 400
+        }), 400
     new_data = SomeData(text=form.text.data)
     db.session.add(new_data)
     db.session.commit()

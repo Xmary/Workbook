@@ -5,7 +5,7 @@ Workbook.controller('HomeCtrl', [
     $scope.getData = function() {
       $http.get("/getData")
         .success(function(response) {$scope.output = response.data});
-    }
+    };
     
     $scope.getData();
     $scope.someData = {
@@ -18,6 +18,10 @@ Workbook.controller('HomeCtrl', [
         $http.post("/sendData", $scope.someData)
           .success(function() {
             $scope.getData();
+            $scope.output = {};
+          })
+          .error(function() {
+            $scope.inputError = true;
           });
       };
     };

@@ -10,6 +10,7 @@ Main content of commit 3: 1091e17e40a0d33fe8c5189b29bd44fa6c251ea7
 * Run tests with ```py.test tests_backend/```
 
 ## Step 2: Unit testing for frontend
+Karma is a test runner, which runs tests in several different browsers automatically (certainly, you should define, which browsers you want to use and install launchers for them). 
 * Install [karma](http://karma-runner.github.io/0.12/index.html) test runner with ```npm install karma --save```
 * Create [karma.conf.js](karma.conf.js) file with karma configuration.
 * Create controller (for instance home.js) and test for it (like home_test.js).
